@@ -162,10 +162,17 @@ ul {
     font-weight:600px;
 }
 
+.destination-photo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-auto-flow: dense;
+}
 
-
-
-
+.destination-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* Responsive for mobile */
 
