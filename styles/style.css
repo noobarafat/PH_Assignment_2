@@ -358,7 +358,7 @@ ul {
     border: none;
 }
 
-.tour-place-button:hover{
+.tour-place-button:hover {
     background-color: green;
 }
 
@@ -432,7 +432,7 @@ ul {
     position: relative;
 }
 
-.tour-to-italy{
+.tour-to-italy {
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
@@ -444,6 +444,89 @@ ul {
     top: 70px;
     padding: 30px;
 }
+
+.see-all-packages {
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;
+    border: none;
+    margin: 30px 500px 30px 720px;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: white;
+}
+
+.see-all-packages:hover {
+    background-color: green;
+}
+
+
+/* Simple perfect place section styles */
+.simple-perfect-place-container {
+    width: 78%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.simple-perfect-place-content h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    width: 450px;
+}
+
+.simple-perfect-place-content p {
+    color: #5A5A5D;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 520px;
+    padding-bottom: 20px;
+}
+
+.simple-perfect-place-content ul {
+    padding-left: 30px;
+}
+
+.simple-perfect-place-content ul li {
+    color: #131318;
+    font-weight: 700;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+.simple-perfect-place-content button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+}
+
+.simple-perfect-place-photo{
+    position: relative;
+    
+}
+
+.simple-perfect-place-photo img{
+    border-radius: 16px;
+}
+
+.simple-perfect-place-photo h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    position: absolute;
+    bottom: 220px;
+    left: 90px;
+}
+
 
 /* Responsive for mobile */
 
@@ -531,5 +614,44 @@ ul {
 
     .Best-Price-Guarantee {
         width: 100%;
+    }
+
+    .deals-discount-title-description {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .tour-to-satorini,
+    .tour-to-bali,
+    .tour-to-italy {
+        width: 355px;
+        left: 10px;
+    }
+
+    .simple-perfect-place-container{
+        flex-direction: column;
+    }
+
+    .simple-perfect-place-content h1{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        margin-top: -120px;
+        line-height: normal;
+        padding-bottom: 20px;
+    }
+
+    .simple-perfect-place-content p{
+        width: 100%;
+    }
+
+    .simple-perfect-place-photo img{
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .simple-perfect-place-photo h2{
+        top: 60px;
+        left: 0;
     }
 }
