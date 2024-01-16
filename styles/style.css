@@ -57,6 +57,7 @@ nav {
     font-weight: 400;
 }
 
+
 .nav-items-container:first-child {
     font-weight: 700;
 }
@@ -99,6 +100,7 @@ hr {
     background: rgba(255, 255, 255, 0.30);
     width: 59%;
     margin: 20px auto;
+  
     
 }
 
@@ -108,12 +110,13 @@ hr {
     border: none;
     padding: 15px 20px;
     width: 174px;
-    margin: 10px
+    margin: 10px;
+    position: relative;
 }
 
 .when-down-icon {
     left: 735px;
-    bottom: 436px;
+    bottom: 323px;
     z-index: 1;
     position: absolute;
 
@@ -123,7 +126,7 @@ hr {
     position: absolute;
     z-index: 1;
     left: 934px;
-    bottom: 436px;
+    bottom: 323px;
 
 }
 
@@ -131,17 +134,26 @@ hr {
     position: absolute;
     z-index: 1;
     left: 1020px;
-    bottom: 440px;
+    bottom: 328px;
 }
 
-.banner-input-container input:last-child {
+
+.banner-input button{
     background-color: #FF5400;
-
+    border: none;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 20px;
+    width: 174px;
+    margin: 10px;
+    transition: transform 0.3s ease;
 }
 
-.banner-input-container input:last-child::placeholder {
+
+.banner-input button:hover{
+    background-color: green;
     color: white;
-    padding-left: 20px;
+    transform: scale(1.02);
 }
 
 /* Popular tours section styles */
@@ -925,18 +937,23 @@ footer span {
     }
 
     .when-down-icon {
-        left: 250px;
-        bottom: 216px;
+        left: 262px;
+        bottom: 427px;
     }
 
     .select-type-icon {
-        left: 250px;
-        bottom: 160px;
+        left: 262px;
+        bottom: 482px;
     }
 
     .search-icon {
-        left: 110px;
-        bottom: 110px;
+        left: 160px;
+        bottom: 372px;
+    }
+
+    .banner-input button{
+        color: white;
+        font-size: 16px;
     }
 
     .popular-tours {
