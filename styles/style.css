@@ -110,6 +110,29 @@ hr {
     margin: 10px;
 }
 
+.when-down-icon {
+    left: 735px;
+    bottom: 322px;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.select-type-icon {
+    position: absolute;
+    z-index: 1;
+    left: 934px;
+    bottom: 322px;
+
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 1;
+    left: 1020px;
+    bottom: 327px;
+}
+
 .banner-input-container input:last-child {
     background-color: #FF5400;
 
@@ -117,6 +140,7 @@ hr {
 
 .banner-input-container input:last-child::placeholder {
     color: white;
+    padding-left: 20px;
 }
 
 /* Popular tours section styles */
@@ -374,6 +398,7 @@ ul {
     padding: 20px 0;
 }
 
+
 .deals-discount-card-1 {
     background-image: url('../Images/Group 39.png');
     background-size: cover;
@@ -623,24 +648,24 @@ footer span {
     text-align: center;
     font-weight: 400;
     line-height: 26px;
-    width: 770px;
+    width: 800px;
     margin: 0 auto;
     padding-top: 15px;
 }
 
 
-.footer-logo{
+.footer-logo {
     display: flex;
     gap: 15px;
     padding: 15px 0;
 }
 
-.footer-logo img{
+.footer-logo img {
     width: 45px;
-    
+
 }
 
-.copyright{
+.copyright {
     text-align: center;
     padding-top: 50px;
 }
@@ -654,8 +679,8 @@ footer span {
 
     .nav-logo-and-name-container {
         justify-content: center;
-        width: 100%;
-        padding-right: 110px;
+        width: 80%;
+
     }
 
     .nav-items-container {
@@ -671,10 +696,17 @@ footer span {
         display: block;
         border: 1px solid black;
         width: 24px;
+        margin-left: 20px;
     }
+
+
 
     .nav-items-container a {
         display: none;
+    }
+
+    .banner {
+        margin-right: 22px;
     }
 
     .banner h1 {
@@ -704,8 +736,23 @@ footer span {
         background: #FFF;
         border: none;
         padding: 15px 20px;
-        width: 224px;
-        margin: 10px;
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    .when-down-icon {
+        left: 250px;
+        bottom: 216px;
+    }
+
+    .select-type-icon {
+        left: 250px;
+        bottom: 160px;
+    }
+
+    .search-icon {
+        left: 110px;
+        bottom: 110px;
     }
 
     .popular-tours {
@@ -713,11 +760,38 @@ footer span {
         padding-top: 0px;
     }
 
+    .popular-tours h1 {
+        text-align: center;
+    }
+
+    .popular-tours-content ul{
+        padding-right: 50px;
+    }
+    .popular-tours-content ul li{
+        text-align: justify;
+    }
+
+    .popular-tours p,
+    ul {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .popular-tours button {
+        margin-left: 20px;
+    }
 
     .popular-tours-img img {
         width: 100%;
         height: 442px;
         padding-top: 20px;
+        padding-left: 23px;
+    }
+
+    .why-choose-us {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10px;
     }
 
     .why-choose-us-title-description {
@@ -729,6 +803,7 @@ footer span {
         width: 100%;
     }
 
+
     .Best-Price-Guarantee {
         width: 100%;
     }
@@ -736,35 +811,106 @@ footer span {
     .deals-discount-title-description {
         width: 100%;
         padding: 0 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 15px;
+    }
+
+    .deals-discount-title{
+        text-align: center;
+        padding-left: 80px;
+    }
+
+    .deals-discount h1 {
+        font-size: 25px;
+        text-align: left;
+
+        padding-right: 10px;
     }
 
     .tour-to-satorini,
     .tour-to-bali,
     .tour-to-italy {
-        width: 355px;
+        width: 305px;
         left: 10px;
+
     }
 
-    .simple-perfect-place-container {
+
+
+    .tour-package {
+        flex-direction: column;
+        gap: 0px;
+        margin-top: -30px;
+        align-items: start;
+        justify-content: center;
+
+    }
+
+    .tour-package p {
+        margin-top: -20px;
+        margin-left: 5px;
+    }
+
+    .tour-to-satorini>p,
+    .tour-to-bali>p,
+    .tour-to-italy>P {
+        font-size: 15px;
+        line-height: normal;
+    }
+
+    .tour-place-heading {
+        font-size: 20px;
+    }
+
+    .tour-package p {
+        padding-left: 20px;
+    }
+
+    .see-all-packages{
+        margin: 15px 20px 19px 100px;
+    
+    }
+    .simple-perfect-place-container{
         flex-direction: column;
     }
 
     .simple-perfect-place-content h1 {
-        font-size: 30px;
-        width: 100%;
-        text-align: center;
-        margin-top: -120px;
-        line-height: normal;
+        font-size: 20px;
+        width: 250px;
+        text-align: left;
+        margin-top: -50px;
         padding-bottom: 20px;
+        line-height: normal;
+        padding-left: 20px;
     }
 
     .simple-perfect-place-content p {
         width: 100%;
+        margin: 0px 20px;
+        padding-right: 45px;
+        
+    }
+
+    .simple-perfect-place-content ul{
+        margin-left: 20px;
+        
+    }
+
+    .simple-perfect-place-content ul li{
+        font-size: 14px;
+        line-height: normal;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+
+    .simple-perfect-place-content button{
+        margin-left: 20px;
     }
 
     .simple-perfect-place-photo img {
-        width: 350px;
-        margin: 0 auto;
+        width: 340px;
+        /* margin: 0 auto; */
     }
 
     .simple-perfect-place-photo h2 {
@@ -790,13 +936,17 @@ footer span {
     }
 
     .newsletter-photo {
-        padding: 0;
+        width: 100%
     }
 
     .newsletter-photo img {
-        width: 55%;
+        width: 310px;
         padding-left: 0;
-        margin: 0;
+        margin-left: -70px;
     }
+
+        .footer-description{
+            width: auto;
+        }
 
 }
