@@ -1125,9 +1125,9 @@ footer span {
     }
 
     .newsletter-photo img {
-        width: 310px;
+        width: 379px;
         padding-left: 0;
-        margin-left: -70px;
+       
     }
 
     .newsletter-photo h1 {
@@ -1145,7 +1145,7 @@ footer span {
         transform: rotate(-33.628deg);
         background: #FF5400;
         bottom: 48px;
-        left: 48px;
+        left: 198px;
     }
 
     .footer-description {
