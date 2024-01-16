@@ -666,15 +666,15 @@ ul {
     width: 87%;
     margin: 0 auto;
     margin-bottom: 50px;
-    padding: 50px ;
+    padding: 50px;
     text-align: center;
     background-color: #f2f2fd;
     border-radius: 15px;
 }
 
-.customer-review-container h1{
+.customer-review-container h1 {
     font-size: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .customer-review {
@@ -685,17 +685,17 @@ ul {
 }
 
 .top-customer-review {
-    width: 25%; 
+    width: 25%;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     border-radius: 16px;
     transition: transform 0.3s ease;
 }
 
-.top-customer-review:hover{
+.top-customer-review:hover {
     transform: scale(1.03);
     background-color: rgb(224, 224, 250);
-    
+
 }
 
 
@@ -706,11 +706,10 @@ ul {
     padding-top: 7px;
 }
 
-.top-customer-review p{
+.top-customer-review p {
     font-size: 14px;
-    padding:10px ;
+    padding: 10px;
     color: rgb(104, 89, 89);
-    pa
 }
 
 
@@ -721,6 +720,7 @@ ul {
     display: flex;
     margin: 0 auto;
     gap: 50px;
+    justify-content: space-between;
 }
 
 .newsletter-content {
@@ -769,9 +769,34 @@ ul {
     background-color: green;
 }
 
-.newsletter-photo {
-    padding-left: 82px;
-    width: 672px;
+.newsletter-photo  {
+    position: relative;
+}
+
+.newsletter-photo h1 {
+    color:white;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.newsletter-photo h3 {
+    color:white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 23px;
+}
+
+.newsletter-photo div {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    left: 342px;
 }
 
 /* footer section style */
@@ -1105,6 +1130,24 @@ footer span {
         margin-left: -70px;
     }
 
+    .newsletter-photo h1 {
+        font-size: 19px;
+    }
+    
+    .newsletter-photo h3 {
+        font-size:16px;
+        padding-top: 15px;
+    }
+    
+    .newsletter-photo div {
+        width: 174px;
+        height: 80px;
+        transform: rotate(-33.628deg);
+        background: #FF5400;
+        bottom: 48px;
+        left: 48px;
+    }
+
     .footer-description {
         width: auto;
     }
@@ -1134,17 +1177,19 @@ footer span {
         width: 100%;
     }
 
-    .customer-review-container h1{
+    .customer-review-container h1 {
         font-size: 30px;
     }
 
-    .customer-review{
+    .customer-review {
         flex-direction: column;
     }
 
-    .top-customer-review{
+    .top-customer-review {
         width: 100%;
     }
+
+
 
 
 }
