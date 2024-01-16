@@ -186,17 +186,121 @@ ul {
     font-weight: 600px;
 }
 
-.destination-photo {
+/* Choose your Destination section style */
+
+.destination {
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.destination h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.destination p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 40px;
+    width: 790px;
+    margin: 0 auto;
+
+}
+
+.maldives {
+    background-image: url('../Images/Rectangle\ 5.png');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    grid-area: a1;
+}
+
+.indonesia {
+    background-image: url('../Images/Rectangle\ 8.png');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    grid-area: a2;
+}
+
+.srilanka {
+    background-image: url('../Images/Rectangle\ 6.png');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    grid-area: b1;
+}
+
+.north {
+    background-image: url('../Images/Rectangle\ 7.png');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    grid-area: b2;
+}
+
+.kashmir {
+    background-image: url('../Images/Rectangle\ 9.png');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    grid-area: b3;
+}
+
+.bangladesh {
+    background-image: url('../Images/Rectangle\ 10.png');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    grid-area: c1;
+}
+
+.bandarban {
+    background-image: url('../Images/Rectangle\ 11.png');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    grid-area: c2;
+}
+
+.destination-photo-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 3px;
+    gap: 20px;
+    grid-template-areas:
+
+        "a1 a1 a1 a1 a1 a1 a2 a2 a2 a2 a2 a2"
+        "b1 b1 b1 b1 b2 b2 b2 b2 b2 b3 b3 b3"
+        "c1 c1 c1 c1 c1 c1 c2 c2 c2 c2 c2 c2"
+    ;
 }
 
-.destination-photo img {
-    width: 100%;
-    height: 100%;
+.destination-name {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 800;
 }
-
 
 /* Why choose us section style */
 
@@ -764,10 +868,11 @@ footer span {
         text-align: center;
     }
 
-    .popular-tours-content ul{
+    .popular-tours-content ul {
         padding-right: 50px;
     }
-    .popular-tours-content ul li{
+
+    .popular-tours-content ul li {
         text-align: justify;
     }
 
@@ -816,7 +921,7 @@ footer span {
         padding-bottom: 15px;
     }
 
-    .deals-discount-title{
+    .deals-discount-title {
         text-align: center;
         padding-left: 80px;
     }
@@ -867,11 +972,12 @@ footer span {
         padding-left: 20px;
     }
 
-    .see-all-packages{
+    .see-all-packages {
         margin: 15px 20px 19px 100px;
-    
+
     }
-    .simple-perfect-place-container{
+
+    .simple-perfect-place-container {
         flex-direction: column;
     }
 
@@ -889,22 +995,22 @@ footer span {
         width: 100%;
         margin: 0px 20px;
         padding-right: 45px;
-        
+
     }
 
-    .simple-perfect-place-content ul{
+    .simple-perfect-place-content ul {
         margin-left: 20px;
-        
+
     }
 
-    .simple-perfect-place-content ul li{
+    .simple-perfect-place-content ul li {
         font-size: 14px;
         line-height: normal;
         margin-right: 20px;
         padding-right: 20px;
     }
 
-    .simple-perfect-place-content button{
+    .simple-perfect-place-content button {
         margin-left: 20px;
     }
 
@@ -945,8 +1051,8 @@ footer span {
         margin-left: -70px;
     }
 
-        .footer-description{
-            width: auto;
-        }
+    .footer-description {
+        width: auto;
+    }
 
 }
