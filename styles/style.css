@@ -99,6 +99,7 @@ hr {
     background: rgba(255, 255, 255, 0.30);
     width: 59%;
     margin: 20px auto;
+    
 }
 
 .banner-input-container input {
@@ -107,12 +108,12 @@ hr {
     border: none;
     padding: 15px 20px;
     width: 174px;
-    margin: 10px;
+    margin: 10px
 }
 
 .when-down-icon {
     left: 735px;
-    bottom: 322px;
+    bottom: 436px;
     z-index: 1;
     position: absolute;
 
@@ -122,7 +123,7 @@ hr {
     position: absolute;
     z-index: 1;
     left: 934px;
-    bottom: 322px;
+    bottom: 436px;
 
 }
 
@@ -130,7 +131,7 @@ hr {
     position: absolute;
     z-index: 1;
     left: 1020px;
-    bottom: 327px;
+    bottom: 440px;
 }
 
 .banner-input-container input:last-child {
