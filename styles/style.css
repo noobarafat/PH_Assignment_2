@@ -116,7 +116,7 @@ hr {
 
 .when-down-icon {
     left: 735px;
-    bottom: 323px;
+    bottom: 300px;
     z-index: 1;
     position: absolute;
 
@@ -126,7 +126,7 @@ hr {
     position: absolute;
     z-index: 1;
     left: 934px;
-    bottom: 323px;
+    bottom: 300px;
 
 }
 
@@ -134,7 +134,7 @@ hr {
     position: absolute;
     z-index: 1;
     left: 1020px;
-    bottom: 328px;
+    bottom: 300px;
 }
 
 
@@ -146,6 +146,7 @@ hr {
     padding: 15px 20px;
     width: 174px;
     margin: 10px;
+    color: white;
     transition: transform 0.3s ease;
 }
 
@@ -588,17 +589,23 @@ ul {
 }
 
 .see-all-packages {
-    border-radius: 8px;
-    background: #FF5400;
     text-align: center;
-    border: none;
-    margin: 30px 500px 30px 720px;
-    padding: 10px 25px;
-    font-size: 16px;
-    color: white;
+    width: 40%;
+    margin:19px auto;
+    
+
+   
 }
 
-.see-all-packages:hover {
+.see-all-packages button{
+    background-color: #FF5400;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color: white;}
+
+.see-all-packages button:hover {
     background-color: green;
 }
 
